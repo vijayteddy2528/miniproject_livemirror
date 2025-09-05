@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #00ffff, #ff02ff);
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  margin: 250px auto;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.mirror {
+  font-size: 1.5rem;
+  color: white;
+  min-height: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  border-radius: 0.5rem;
+  background-color: rgb(102, 102, 102);
+  transform: scaleX(-1);
+}
+
+input:hover {
+  border: 1px solid black;
+}
